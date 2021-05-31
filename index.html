@@ -14,19 +14,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <title>151 Pokemon</title>
-    <script>
-        $(document).ready(function () {
-            for( var i = 1; i <= 151; i++){
-                $('#pokemones').append('<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/'+i+'.png">'); 
-            }                           
-        });
-    </script>
+    <script type="text/javascript" scr="pokedex.js"></script>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <div class="container bg-light text-center">
-        <h1>151 Pokemon</h1>
+    <div id="main" class="container bg-light text-center">
+        <h1>Pokedex</h1>
         <hr>
-        <div id="pokemones"></div>
+        <div class="row">
+            <div id="pokemones"></div>
+            <div id="pokedex"></div>
+        </div>
     </div>
 </body>
 </html>
