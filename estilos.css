@@ -1,29 +1,27 @@
 <style>
-        #pokedex {
-            border: hidden;
-            height: max-content;
-            text-align: center;
-            padding: 10px;
-        }
-        #pokedex h2{
-            margin: 10px 0px;
-        }
-        #pokedex h2::first-letter{
-            text-transform: uppercase;
-        }
-        #pokedex h3{
-            margin: 5px;
-        }
-        #pokedex p{
-            margin: 0px;
-        }
-        #pokedex ul {
-            text-align: center;
-            margin: 0px;
-        }
-        #pokedex li {
-            list-style: none;
-            margin: 0px;
-            color: 
-        }
-    </style>
+    #pokedex {
+        border: hidden;
+        text-align: center;
+    }
+    #pokedex h2{
+        margin: 10px 0px;
+    }
+    #pokedex h2::first-letter{
+        text-transform: uppercase;
+    }
+    #pokedex h3{
+        margin: 5px;
+    }
+    #pokedex p{
+        margin: 0px;
+    }
+    #pokedex ul {
+        text-align: center;
+        margin: 0px;
+    }
+    #pokedex li {
+        list-style: none;
+        margin: 0px;
+        color: 
+    }
+</style>

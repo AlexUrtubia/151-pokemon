@@ -11,6 +11,8 @@ $(document).ready(function () {
         $('#pokemones').addClass('col-sm-9');
         $('#pokedex').addClass('col-sm-3');
         $('#pokedex').css('border', 'solid 30px red');
+        $('#pokedex').css('height', 'max-content');
+        $('#pokedex').css('padding', '10px');
         $('#pokedex').empty(); // Resetea el nuevo div, sin esta funcion aparecerían encima al volver a hacer click
         var q = $(this).attr('id');
         $.get('https://pokeapi.co/api/v2/pokemon/'+q+'/',function (valor) {
